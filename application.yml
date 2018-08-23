@@ -4,11 +4,11 @@ spring:
       -dev
 ---
 spring:
-    profiles:dev
+    profiles: dev
     application:
-        name:springcloud-config-facemash-dev
+        name: springcloud-config-facemash-dev
 ---
 spring:
-    profiles:test
+    profiles: test
     application:
-        name:springcloud-config-facemash-test
+        name: springcloud-config-facemash-test
