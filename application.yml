@@ -1,0 +1,14 @@
+spring:
+   profiles:
+     active:
+      -dev
+---
+spring:
+    active:dev
+    application:
+        name:springcloud-config-facemash-dev
+---
+spring:
+    active:test
+    application:
+        name:springcloud-config-facemash-test
